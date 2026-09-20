@@ -1,0 +1,53 @@
+﻿Account Code,Account Name (EN),Account Name (AR),Account Type,Parent Code,Is Postable
+1000,"Assets","الأصول",Asset,,No
+1010,"Cash and Cash Equivalents","النقد وما في حكمه",Asset,1000,No
+1011,"Cash on Hand","النقدية في الصندوق",Asset,1010,Yes
+1012,"Petty Cash","العهدة النقدية",Asset,1010,Yes
+1020,"Bank Accounts","الحسابات البنكية",Asset,1000,No
+1021,"Al Rajhi Bank (Operating)","مصرف الراجحي (حساب جاري)",Asset,1020,Yes
+1022,"SNB Bank (Operating)","البنك الأهلي السعودي (حساب جاري)",Asset,1020,Yes
+1030,"Accounts Receivable (Trade Debtors)","العملاء والمدينون التجاريون",Asset,1000,Yes
+1035,"Allowance for Doubtful Accounts","مخصص الديون المشكوك في تحصيلها",Asset,1000,Yes
+1040,"Inventory (Merchandise)","مخزون البضائع للبيع",Asset,1000,Yes
+1045,"Goods in Transit","بضاعة بالطريق",Asset,1000,Yes
+1050,"Prepaid Expenses & Advances","مصروفات مدفوعة مقدماً وسلف",Asset,1000,Yes
+1060,"Input VAT (Recoverable)","ضريبة القيمة المضافة المدخلات (القابلة للاسترداد)",Asset,1000,Yes
+1500,"Fixed Assets (Property, Plant & Equipment)","الأصول الثابتة (الممتلكات والمعدات)",Asset,1000,No
+1510,"Computers & IT Equipment","أجهزة الحاسب والتقنية",Asset,1500,Yes
+1515,"Accumulated Depreciation - IT Equipment","مجمع إهلاك أجهزة الحاسب",Asset,1500,Yes
+1520,"Vehicles & Transport","السيارات ووسائل النقل",Asset,1500,Yes
+1525,"Accumulated Depreciation - Vehicles","مجمع إهلاك السيارات",Asset,1500,Yes
+2000,"Liabilities","الالتزامات",Liability,,No
+2010,"Accounts Payable (Suppliers)","الموردون والدائنون التجاريون",Liability,2000,Yes
+2020,"Accrued Expenses","مصروفات مستحقة",Liability,2000,Yes
+2030,"Accrued Salaries & GOSI Payable","رواتب مستحقة ومستحقات التأمينات الاجتماعية",Liability,2000,Yes
+2040,"Output VAT Payable (15%)","ضريبة القيمة المضافة المخرجات (المستحقة 15%)",Liability,2000,Yes
+2050,"Customer Advances / Unearned Revenue","دفعات مقدمة من العملاء / إيرادات مؤجلة",Liability,2000,Yes
+2060,"End of Service Indemnity (EOSB)","مخصص مكافأة نهاية الخدمة",Liability,2000,Yes
+2070,"Zakat & Corporate Tax Provision","مخصص الزكاة وضريبة الدخل",Liability,2000,Yes
+3000,"Equity","حقوق الملكية",Equity,,No
+3010,"Share Capital","رأس المال المدفوع",Equity,3000,Yes
+3020,"Statutory Reserve","الاحتياطي النظامي",Equity,3000,Yes
+3030,"Retained Earnings","الأرباح (الخسائر) المبقاة",Equity,3000,Yes
+3040,"Current Year Net Profit / Loss","صافي ربح / (خسارة) العام الحالي",Equity,3000,Yes
+4000,"Revenue","الإيرادات",Revenue,,No
+4010,"Sales of Goods (Standard 15% VAT)","مبيعات البضائع (خاضعة للضريبة 15%)",Revenue,4000,Yes
+4020,"Services Revenue (Standard 15% VAT)","إيرادات الخدمات (خاضعة للضريبة 15%)",Revenue,4000,Yes
+4030,"Zero-Rated Sales & Exports","مبيعات بنسبة الصفر وصادرات",Revenue,4000,Yes
+4040,"Sales Returns and Allowances","مردودات ومسموحات المبيعات",Revenue,4000,Yes
+4050,"Discounts Allowed","الخصم المسموح به",Revenue,4000,Yes
+5000,"Cost of Goods Sold (COGS)","تكلفة البضاعة المباعة",Expense,,No
+5010,"Cost of Merchandise Sold","تكلفة البضاعة المبيعة",Expense,5000,Yes
+5020,"Freight In & Customs Clearance","الشحن الداخلي وتكاليف التخليص الجمركي",Expense,5000,Yes
+5030,"Direct Labor","أجور العمالة المباشرة",Expense,5000,Yes
+5040,"Purchase Returns & Discounts","مردودات وخصومات المشتريات",Expense,5000,Yes
+6000,"Operating Expenses (OPEX)","المصروفات التشغيلية والعمومية",Expense,,No
+6010,"Salaries & Wages","الرواتب والأجور",Expense,6000,Yes
+6020,"GOSI Employer Contribution","حصة المنشأة في التأمينات الاجتماعية (GOSI)",Expense,6000,Yes
+6030,"Rent & Facilities Expense","مصروفات الإيجار والمرافق",Expense,6000,Yes
+6040,"Utilities (Electricity, Water)","الكهرباء والمياه والمرافق",Expense,6000,Yes
+6050,"Government & Iqama Fees","رسوم حكومية ورخص عمل وإقامات",Expense,6000,Yes
+6060,"Marketing & Advertising","التسويق والدعاية والإعلان",Expense,6000,Yes
+6070,"Software Subscriptions & Cloud Hosting","اشتراكات البرامج والاستضافة السحابية",Expense,6000,Yes
+6080,"Depreciation Expense","مصروف الإهلاك",Expense,6000,Yes
+6090,"Bank Charges & POS Fees","رسوم بنكية وعمولات نقاط البيع (مدى)",Expense,6000,Yes
