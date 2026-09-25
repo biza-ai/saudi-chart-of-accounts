@@ -1,0 +1,48 @@
+{
+  "name": "@biza-ai/saudi-chart-of-accounts",
+  "version": "1.0.0",
+  "description": "Standard bilingual (Arabic / English) Chart of Accounts (COA) for Saudi Arabian companies, compliant with SOCPA, ZATCA 15% VAT, and GOSI standards.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./json": "./data/chart-of-accounts.json"
+  },
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && esbuild src/index.ts --outfile=dist/index.cjs --format=cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biza-ai/saudi-chart-of-accounts.git"
+  },
+  "homepage": "https://biza.app",
+  "keywords": [
+    "saudi-arabia",
+    "chart-of-accounts",
+    "accounting",
+    "zatca",
+    "socpa",
+    "gosi",
+    "erp",
+    "coa",
+    "دليل-الحسابات"
+  ],
+  "author": "BIZA App (https://biza.app)",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "~5.8.3"
+  }
+}
